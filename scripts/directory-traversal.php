@@ -1,5 +1,5 @@
 <?php
-
+// functions are static
 class DirectoryTaversalTool {
     public static function getVulnerabilities($urls) {
         foreach ($urls as $key => $url) {
